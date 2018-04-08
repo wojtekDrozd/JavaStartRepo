@@ -42,6 +42,7 @@ public class HTMLPanel extends JPanel {
 		this.add(helpPanel, BorderLayout.CENTER);
 		this.add(actionButton, BorderLayout.SOUTH);
 	}
+	// dodac funkcjonalosc polegajaca na generowaniu podgladu na bierzaco
 
 	class ConvertListener implements ActionListener {
 		@Override
